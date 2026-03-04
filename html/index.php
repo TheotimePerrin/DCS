@@ -1,6 +1,6 @@
 <?php
 // db.php est dans le même dossier htdocs/php/
-
+require_once __DIR__ . '/db.php';
 
 $topApps       = getTopApplications(5);
 $evolutionMens = getEvolutionMensuelle();
